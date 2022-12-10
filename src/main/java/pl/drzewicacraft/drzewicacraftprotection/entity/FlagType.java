@@ -1,0 +1,21 @@
+package pl.drzewicacraft.drzewicacraftprotection.entity;
+
+/**
+ * Created by Aquerr on 2018-07-17.
+ */
+public enum FlagType
+{
+    IGNORE_PLAYER_DAMAGE,
+    HOSTILE_MOB_SPAWN,
+    HOSTILE_MOB_ENTER,
+    ENTER_MESSAGE_CHAT,
+    LEAVE_MESSAGE_CHAT,
+    ENTER_MESSAGE_TITLE,
+    ENTER_MESSAGE_SUBTITLE,
+    ENTER_MESSAGE_ACTION_BAR,
+    LEAVE_MESSAGE_TITLE,
+    LEAVE_MESSAGE_ACTION_BAR,
+    LEAVE_MESSAGE_SUBTITLE,
+    PROTECT_ITEM_FRAMES,
+    PROTECT_BLOCKS
+}
